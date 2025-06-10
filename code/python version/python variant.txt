@@ -1,0 +1,10 @@
+"png2cur.py" by "Crimson_Lycan"
+Created 6-10-2025
+
+This variant requires python, pillow, tkinter, and struct to run.
+
+This project is still in it's early days, so don't expect much out of it.
+This program should convert your transparent .png files into custom .cur (windows cursor) files.
+
+I plan on adding animated .png to .ani conversion later on, but it kinda sucks now.
+the .ani files produced from the conversion aren't functional...
