@@ -3,7 +3,7 @@ from tkinter import filedialog, Label, Entry, Button, Listbox, Scrollbar, IntVar
 from PIL import Image, ImageSequence
 import struct
 
-# Classes
+# Class Area
 
 class staticCur:
     image_data = 0
@@ -103,7 +103,6 @@ class dynamicPNG:
     def __init__(self):
         pass
 
-# program
 class PNGtoCURConverter:
     def __init__(self, master):
         self.master = master
@@ -335,6 +334,7 @@ class PNGtoCURConverter:
             except Exception as e:
                 messagebox.showerror("Error", f"Error creating animated ANI file: {e}")
 
+# Launch Area
 
 root = tk.Tk()
 converter = PNGtoCURConverter(root)
